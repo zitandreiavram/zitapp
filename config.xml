@@ -18,5 +18,14 @@
     </author>
     
     <preference name="phonegap-version" value="2.0.0" />
-
+	
+	
+	
+	<gap:splash src="splash/splash.png" />
+	
+	<!-- If you do not want any permissions to be added to your app, add the
+		following tag to your config.xml; you will still have the INTERNET
+		permission on your app, which PhoneGap requires. -->
+	<preference name="permissions" value="none"/>
+	
 </widget>
