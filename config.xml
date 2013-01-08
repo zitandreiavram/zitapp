@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>MeetPoint</name>
+    <name>zitApp</name>
 
     <description>
-        MeetPoint DEV
+        ZitApp DEV
     </description>
 
     <author href="https//www.zit.ro" email="office@zit.ro">
