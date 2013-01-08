@@ -1,0 +1,77 @@
+ 
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Zit Mobile</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/jquery.mobile-1.0.1.min.css" />
+    <link rel="stylesheet" href="css/mobile2.css" />
+    <link rel="stylesheet" href="css/tema1.min.css" />
+    
+   
+</head> 
+<body> 
+
+<div data-role="page">
+    
+    <div data-role="header" id="header" data-theme="f">
+        <div id="logo">
+            <a href="index.html" data-transition="slide">
+            	<img src="images/mobile/logo-zit-ro.png" class="ui-li-icon" alt="Home" width="100" />
+            </a>
+        </div>	
+        
+        <div id="lang-icons">
+
+        </div>
+        
+        <div id="homeBut">      	 
+            <a href="<?=$url_back?>"  data-role="button" data-icon="home" data-theme="f" data-transition="slide">Back</a>
+        </div>
+    </div><!-- /header -->
+
+	<div data-role="content">
+    
+    	<div id="description">	
+			<center><p class='blue'>Suntem o companie tanara, in plina ascensiune, avem obiective clare si actionam in directia satisfacerii necesitatilor fiecarui client in parte.</p></center>            
+        </div>		
+        <br clear="all" />
+        
+        <ul data-role="listview" data-theme="c" data-divider-theme="e">
+        
+        	<li><a href="agentie.html" data-transition="slide" class="ui-link-inherit" style="margin-left:1.5em;">
+                <h3>Agentia</h3>
+                <p>Agentie web cluj</p></a>
+                <img src="images/mobile/zit-icon.png" alt="icon" class="ui-li-icon">
+            </li>
+            
+            <li><a href="portofoliu.html" data-transition="slide" class="ui-link-inherit" style="margin-left:1.5em;">
+                <h3>Portofoliu</h3>
+                <p>Portofoliul agentiei web</p></a>
+                <img src="images/mobile/zit-icon.png" alt="icon" class="ui-li-icon">
+            </li>
+            
+            <li><a href="contact.html" data-transition="slide" class="ui-link-inherit" style="margin-left:1.5em;">
+                <h3>Contact</h3>
+                <p>Date de contact - ZIT - agentia web</p></a>
+                <img src="images/mobile/zit-icon.png" alt="icon" class="ui-li-icon">
+            </li>
+        	
+            
+		</ul>
+            
+        <div id="buttons_content">
+
+        </div>
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<script type="application/javascript" src="js/jquery.js"></script>
+<script type="application/javascript" src="js/jquery-ui.js"></script>
+<script type="application/javascript" src="js/jquery.mobile-1.0.min.js"></script>
+<script type="application/javascript" src="js/script.js"></script>
+
+</body>
+</html>
