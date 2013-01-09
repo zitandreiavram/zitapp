@@ -7,14 +7,14 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>zitApp</name>
+    <name>Zit App Mobile</name>
 
     <description>
-        ZitApp DEV
+        Zit App Mobile
     </description>
 
     <author href="https//www.zit.ro" email="office@zit.ro">
-        ZIT
+        ZIT SRL
     </author>
     
     <preference name="phonegap-version" value="2.0.0" />
