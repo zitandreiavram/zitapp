@@ -21,6 +21,13 @@
 	
 	
 	
+	<!-- iOS Specific -->
+	<preference name="fullscreen" value="true" />
+	<preference name="exit-on-suspend" value="true" />
+	<preference name="show-splash-screen-spinner" value="false" />
+	
+	
+	
 	<icon src="images/icons/icon.png" />
 	<!-- icons ios -->
 	<icon src="images/icons/icon-57-57.png" width="57" height="57" />
@@ -33,6 +40,13 @@
 	<icon src="images/icons/icon-96-96.png" gap:platform="android" gap:density="xhdpi" />
 	
 	<gap:splash src="images/splash/splash.png" />
+	<!-- splash ios -->
+	<gap:splash src="images/splash/splash-320-480.png" width="320" height="480" />
+	<gap:splash src="images/splash/splash-640-480.png" width="640" height="960" />
+	<gap:splash src="images/splash/ios/Default_iphone5.png" width="640" height="1136" />
+	<gap:splash src="images/splash/ios/Default-Landscape.png" width="1024" height="768" />
+	<gap:splash src="images/splash/ios/Default-Portrait.png" width="768" height="1024" />
+	<!-- splash android -->
 	
 	<!-- If you do not want any permissions to be added to your app, add the
 		following tag to your config.xml; you will still have the INTERNET
