@@ -22,9 +22,10 @@
 	
 	
 	<!-- iOS Specific -->
-	<preference name="fullscreen" value="true" />
+	<!-- <preference name="fullscreen" value="true" /> -->
 	<preference name="exit-on-suspend" value="true" />
 	<preference name="show-splash-screen-spinner" value="false" />
+	<preference name="prerendered-icon" value="true" />
 	
 	
 	
